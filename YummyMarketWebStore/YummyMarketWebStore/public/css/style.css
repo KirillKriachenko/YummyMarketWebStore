@@ -1,0 +1,264 @@
+﻿@import url(http://twitter.github.com/bootstrap/assets/css/bootstrap.css);
+@import url('https://fonts.googleapis.com/css?family=Raleway+Sans');
+
+body {
+    background-color: #77a63a !important;
+}
+
+.box {
+    margin: 5px;
+    padding: 15px;
+    background: #eee;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    bottom: 0;
+    left: 20px;
+    width: 100%;
+    background: #fff;
+}
+
+.popover {
+    color: black;
+}
+
+.nav {
+    background-color: rgb(240, 235, 235);
+}
+
+    .nav li a {
+        float: left;
+        margin: 10px;
+        width: 100px;
+        height: 60px;
+        padding: 15px 0;
+        text-align: center;
+        color: rgb(69, 110, 185);
+    }
+
+        .nav li a:hover {
+            text-align: center;
+            border-radius: 10px;
+            background: none;
+        }
+
+    .nav li.active a {
+        color: #f55;
+        text-decoration: underline;
+    }
+
+#our-kitchen {
+    border: 1px solid black;
+    color: white;
+    background: black;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Droid Sans', arial, serif;
+}
+
+#ourKitchen {
+    background: black !important;
+    color: white;
+}
+
+#our-growers {
+    border: 1px solid #77a63a;
+    background-color: #77a63a;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Droid Sans', arial, serif;
+}
+
+#ourGrowers {
+    background: #77a63a !important;
+    color: white;
+}
+
+#our-butcher {
+    border: 1px solid #b30837;
+    color: white;
+    background-color: #b30837;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Droid Sans', arial, serif;
+}
+
+#ourButcher {
+    background: #b30837 !important;
+    color: white;
+}
+
+#our-fishmonger {
+    border: 1px solid #126ab6;
+    color: white;
+    background-color: #126ab6;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Droid Sans', arial, serif;
+}
+
+#ourFisherman {
+    background: #126ab6 !important;
+    color: white;
+}
+
+#our-deli {
+    border: 1px solid #80399a;
+    color: white;
+    background-color: #80399a;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Droid Sans', arial, serif;
+}
+
+#ourDeli {
+    background-color: #80399a;
+    color: white;
+}
+
+#our-bakery {
+    border: 1px solid #cd4724;
+    color: white;
+    background-color: #cd4724;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Droid Sans', arial, serif;
+}
+
+#ourBakery {
+    color: white;
+    background-color: #cd4724;
+}
+
+#our-cafe {
+    border: 1px solid #804500;
+    color: white;
+    background-color: #804500;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Droid Sans', arial, serif;
+}
+
+#ourCafe {
+    color: white;
+    background-color: #804500;
+}
+
+#our-sushi {
+    border: 1px solid #d10109;
+    color: white;
+    background-color: #d10109;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Droid Sans', arial, serif;
+}
+
+#ourSushi {
+    color: white;
+    background-color: #d10109;
+}
+
+#our-florist {
+    border: 1px solid #ff6db4;
+    color: white;
+    background-color: #ff6db4;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Droid Sans', arial, serif;
+}
+
+#ourFlorist {
+    color: white;
+    background-color: #ff6db4;
+}
+
+#our-store {
+    border: 1px solid #f46700;
+    color: white;
+    background-color: #f46700;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Droid Sans', arial, serif;
+}
+
+#our-kitchen:hover {
+    border: 1px solid black;
+    background-color: rgb(68, 65, 65);
+    color: #fff !important;
+}
+
+#our-growers:hover {
+    border: 1px solid #77a63a;
+    background-color: #93cf44;
+    color: #fff !important;
+}
+
+#our-butcher:hover {
+    border: 1px solid #b30837;
+    background-color: #ce073c;
+    color: #fff !important;
+}
+
+#our-fishmonger:hover {
+    border: 1px solid #126ab6;
+    background-color: #147edb;
+    color: #fff !important;
+}
+
+#our-deli:hover {
+    border: 1px solid #80399a;
+    background-color: #9b43bb;
+    color: #fff !important;
+}
+
+#our-bakery:hover {
+    border: 1px solid #cd4724;
+    background-color: #e74b24;
+    color: #fff !important;
+}
+
+#our-cafe:hover {
+    border: 1px solid #804500;
+    background-color: #a55800;
+    color: #fff !important;
+}
+
+#our-sushi:hover {
+    border: 1px solid #d10109;
+    background-color: #eb0109;
+    color: #fff !important;
+}
+
+#our-florist:hover {
+    border: 1px solid #ff6db4;
+    background-color: #ff84bf;
+    color: #fff !important;
+}
+
+#our-store:hover {
+    border: 1px solid #f46700;
+    background-color: #f5812e;
+    color: #fff !important;
+}
+
+#section1 {
+    background-color: #c7ace2;
+}
+
+#section2 {
+    position: relative;
+    background-color: #acd4e2;
+}
+
+.stie-menu a {
+    color: #eee;
+    padding-right: 10px;
+}
+
+    .stie-menu a:hover {
+        color: white;
+    }
